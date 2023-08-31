@@ -1,0 +1,48 @@
+:root {
+    background-color: #0a192f;
+    color: #ffffff;
+    --font: Verdana, Geneva, Tahoma, sans-serif;
+    --accent-color: #00bcd4; 
+    font-family: var(--font);
+}
+
+
+#user {
+    background-color: #112240; 
+    border: 1px solid #0a192f;
+}
+
+#get-repos {
+    background-color: #00bcd4; 
+    border: 1.5px var(--accent-color) solid; 
+}
+
+#get-repos:hover {
+    background-color: #0180a1; 
+    color: black;
+}
+
+.repo {
+    border: 1.5px var(--accent-color) solid; 
+}
+
+.repo:hover {
+    background-color: #00bcd4; 
+    color: black;
+}
+
+#table-container {
+    border-radius: 0.5em;
+    border: 1.5px solid var(--accent-color); 
+    padding: 0;
+    overflow: hidden;
+}
+
+#commit-table th {
+    color: #111;
+    background-color: #00bcd4;
+}
+
+#commit-table tr:nth-child(odd) {
+    background-color: #112240; 
+} 
